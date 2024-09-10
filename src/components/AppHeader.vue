@@ -8,8 +8,13 @@
 
         data(){
             return{
+                
                 isLinkActive: false,
                 navLinks: [
+                    {
+                        label: 'Home',
+                        routeName: 'home'
+                    },
                     {
                         label: 'Eventi',
                         routeName: 'events'
@@ -27,21 +32,13 @@
             }
         },
         methods: {
-            toggleActiveLink (label) {
-                
-                if(label === 'Eventi') {
-                    this.isLinkActive = !this.isLinkActive
-                }
-                
-
-                console.log(this.isLinkActive)
-            }
+           
             },
 
         computed: {
 
         }
-        }
+    }
 	
 
     
@@ -55,19 +52,33 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav gap-5">
+                <ul class="navbar-nav lm-gap">
                     <li class="nav-item" v-for="link in navLinks" >
-                        <router-link class="nav-link" :to="{name: link.routeName}">{{ link.label }}</router-link>
+                        <router-link class="nav-link" 
+                        :to="{name: link.routeName}"
+                        :class="{ 'active-link': $route.name === link.routeName }"
+                        :aria-current="$route.name === link.routeName ? 'page' : null"
+                        >{{ link.label }}</router-link>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- aria-current="page"  -->
 </template>
 
 <style scoped lang="scss">
-    // .container-fluid{
-    //     background-color: black;
-    // }
+//creare CSS per un link che si ingrandisca all'hover e abbia un colore contrastante se selezionato
+    .nav-link.active-link {
+        font-weight: bold;
+    }
+
+    #navbarNav.lm-gap{
+        gap: 3rem;
+    }
+
+    @media only screen and (min-width: 992px) {
+        .lm-gap{
+        gap: 12rem
+    }
+    }
 </style>
