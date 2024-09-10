@@ -29,7 +29,7 @@
                     <div class="carousel-inner rounded">
                         <div class="carousel-item active">
                             <img src="https://www.drcommodore.it/wp-content/uploads/2022/03/Rufy-1043-1.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption d-none d-md-block pb-0">
                                 <h5>Rufy</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
                                 <div class="d-flex justify-content-start gap-5" >
@@ -144,19 +144,11 @@
     .carousel-item {
     img{
         width: 100%;
-        height: 60vh;
+        height: 70vh;
         object-fit: cover;
         }
     }
 }
-
-// @media only screen and (max-width: 768px) {
-//     .carousel-caption{
-//     position: absolute;
-//     top: 55%;
-//     text-align: start;
-//     }
-// }
 
 @media only screen and (max-width: 576px) {
    .carousel-item{
