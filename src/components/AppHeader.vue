@@ -45,7 +45,7 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-bottom">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary rounded-bottom">
         <div class="container-fluid">
             <div class="ms-5" ><router-link class="navbar-brand" :to="{name: 'home'}">ToDoPi</router-link></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,8 +68,26 @@
 
 <style scoped lang="scss">
 //creare CSS per un link che si ingrandisca all'hover e abbia un colore contrastante se selezionato
+    .nav-link{
+        color: bisque;
+        font-weight: bold;
+        transition: transform .2s;
+        
+    }
+
+    .nav-link:hover{
+        color: bisque;
+        transform: scale(1.5);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
     .nav-link.active-link {
         font-weight: bold;
+        color: #ff0fa4 !important;
+        }
+
+    #navbar{
+        background-color: #18172da5 !important; 
     }
 
     #navbarNav.lm-gap{
