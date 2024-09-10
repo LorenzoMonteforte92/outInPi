@@ -23,12 +23,19 @@ import Carousel from '../components/carousel.vue';
 </script>
 
 <template>
-    <div class="conteiner-md my-3 rounded">
+    <div class="container-md my-3 rounded">
         <div class="row justify-content-center">
             <div class="col text-center text-purple"><h1>Organizza la tua prossima serata</h1></div>
         </div>
     </div>
    <Carousel></Carousel>
+   <div class="container-md my-3 rounded">
+    <div class="row">
+        <div class="col">
+            <h1>Boobs</h1>
+        </div>
+    </div>
+   </div>
 </template>
 
 <style scoped lang="scss">
@@ -39,5 +46,4 @@ import Carousel from '../components/carousel.vue';
 .text-purple{
     color: #6E2CF3;
 }
-
 </style>

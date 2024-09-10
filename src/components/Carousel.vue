@@ -17,11 +17,6 @@
 </script>
 
 <template>
-    <div class="conteiner-md my-3 rounded">
-        <div class="row justify-content-center">
-            <div class="col text-center text-purple"><h1>Organizza la tua prossima serata</h1></div>
-        </div>
-    </div>
    <div class="container-md rounded">
         <div class="row justify-content-center">
             <div class="col-10">
@@ -124,14 +119,6 @@
 </template>
 
 <style scoped lang="scss">
-// .container-md{
-//     background-color: aqua;
-// }
-
-.text-purple{
-    color: #6E2CF3;
-}
-
 .carousel-item {
     img{
         width: 100%;
@@ -171,3 +158,4 @@
     }
 }
 </style>
+
