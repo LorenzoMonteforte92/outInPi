@@ -27,11 +27,15 @@
             <div class="col-10">
                 <div id="carouselExampleAutoplaying" class="carousel slide rounded" data-bs-ride="carousel">
                     <div class="carousel-inner rounded">
-                        <div class="carousel-item active position-relative">
+                        <div class="carousel-item active">
                             <img src="https://www.drcommodore.it/wp-content/uploads/2022/03/Rufy-1043-1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Rufy</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
+                                <div class="d-flex justify-content-start gap-5" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                             <div class="carousel-caption d-md-none">
                                 <h6>Rufy</h6>
@@ -131,6 +135,9 @@
     }
 }
 
+.carousel-caption{
+    text-align: start;
+    }
 
 
 @media only screen and (min-width: 992px) {
@@ -143,8 +150,20 @@
     }
 }
 
+// @media only screen and (max-width: 768px) {
+//     .carousel-caption{
+//     position: absolute;
+//     top: 55%;
+//     text-align: start;
+//     }
+// }
+
 @media only screen and (max-width: 576px) {
-   .carousel-caption{
+   .carousel-item{
+    position: relative;
+   }
+   
+    .carousel-caption{
     position: absolute;
     top: 55%;
     text-align: start;
@@ -152,6 +171,6 @@
     p{
         margin-bottom: 0;
     }
-}
+    }
 }
 </style>
