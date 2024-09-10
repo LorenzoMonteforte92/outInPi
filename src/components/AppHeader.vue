@@ -45,7 +45,7 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-bottom fixed-top">
         <div class="container-fluid">
             <div class="ms-5" ><router-link class="navbar-brand" :to="{name: 'home'}">ToDoPi</router-link></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,5 +80,5 @@
         .lm-gap{
         gap: 12rem
     }
-    }
+}
 </style>
