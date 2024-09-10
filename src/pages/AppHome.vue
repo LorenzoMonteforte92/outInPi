@@ -35,17 +35,17 @@ import Carousel from '../components/carousel.vue';
             <form class="d-flex gap-4" role="search">
                 <!-- ricerca nome evento -->
                 <div class="d-flex" >
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control" type="search" placeholder="Cerca per nome evento" aria-label="Search">
                     <button class="btn btn-primary" type="submit">Search</button>
                 </div>
                 <!-- ricerca per giorno -->
                 <div class="d-flex" >
-                    <input class="form-control" type="date" placeholder="Search" aria-label="Search">
+                    <input class="form-control" type="date" aria-label="Search">
                     <button class="btn btn-primary" type="submit">Search</button>
                 </div>
                 <!-- ricerca per categoria -->
                 <div class="d-flex" >
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control" type="search" placeholder="Cerca locali" aria-label="Search">
                 <button class="btn btn-primary" type="submit">Search</button>
                 </div>
             </form>

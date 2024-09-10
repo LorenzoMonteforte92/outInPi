@@ -47,7 +47,7 @@
 <template>
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary rounded-bottom">
         <div class="container-fluid">
-            <div class="ms-5" ><router-link class="navbar-brand" :to="{name: 'home'}">ToDoPi</router-link></div>
+            <div class="ms-5" ><router-link class="navbar-brand text-light fw-bold" :to="{name: 'home'}">ToDoPi</router-link></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
