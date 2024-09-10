@@ -27,15 +27,13 @@ export default {
 </script>
 
 <template>
-  <div class="video-background-container">
-      <!-- Sfondo video -->
-      <video autoplay loop muted playsinline id="video-background">
-        <source src="./assets/video/luci.mp4" type="video/mp4">
-      </video>
-      <AppHeader></AppHeader>
-      <router-view></router-view>
-  </div>
-  <AppFooter></AppFooter>
+    <!-- Sfondo video -->
+    <video autoplay loop muted playsinline id="video-background">
+      <source src="./assets/video/luci.mp4" type="video/mp4">
+    </video>
+    <AppHeader></AppHeader>
+    <router-view></router-view>
+    <AppFooter></AppFooter>
 </template>
 
 <style lang="scss" >
