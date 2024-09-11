@@ -70,7 +70,7 @@
 //creare CSS per un link che si ingrandisca all'hover e abbia un colore contrastante se selezionato
     .nav-link{
         color: bisque;
-        font-weight: bold;
+        font-weight:bold;
         transition: transform .2s;
         
     }
@@ -78,7 +78,6 @@
     .nav-link:hover{
         color: bisque;
         transform: scale(1.5);
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     }
     
     .nav-link.active-link {
