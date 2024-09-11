@@ -1,8 +1,4 @@
 <script>
-// import { Events } from 'vue';
-// import AppEvents from '../pages/AppEvents.vue';
-// import AppHome from '../pages/AppHome.vue';
-
     export default {
         name: 'AppHeader',
 
