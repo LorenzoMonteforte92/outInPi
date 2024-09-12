@@ -3,6 +3,7 @@ import AppHome from './pages/AppHome.vue';
 import AppEvents from './pages/AppEvents.vue';
 import AppCalendar from './pages/AppCalendar.vue';
 import AppAbout from './pages/AppAbout.vue';
+import AppSingleEvent from './pages/AppSingleEvent.vue';
 
 
 const router = createRouter({	
@@ -28,6 +29,12 @@ const router = createRouter({
             name: 'about',
             component: AppAbout
         },
+        {
+            path: '/eventi/:slug',
+            name: 'single-event',
+            component: AppSingleEvent
+        }
+
         // 404 not found rule
         // {
         //     path: "/:pathMatch(.*)*",

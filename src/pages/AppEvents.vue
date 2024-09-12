@@ -1,5 +1,5 @@
 <script>
-import AppEventsCard from './components/AppEventsCard.vue'; 
+import AppEventsCard from '../components/AppEventsCard.vue'; 
 
     export default {
         name: 'AppEvents',
@@ -23,12 +23,14 @@ import AppEventsCard from './components/AppEventsCard.vue';
 </script>
 
 <template>
-   <div class="container-fluid">
+   <div class="container-fluid my-5">
         <div class="row justify-content-center">
-            <div class="col-10 text-light">lista eventi</div>
+            <div class="col-10 d-flex flex-wrap justify-content-center gap-4">
+                <AppEventsCard></AppEventsCard>
+            </div>
         </div>
    </div>
-   <AppEventsCard></AppEventsCard>
+   
 </template>
 
 <style scoped lang="scss">
