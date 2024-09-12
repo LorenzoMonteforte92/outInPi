@@ -154,7 +154,9 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <div v-for="event in eventsList" class="card rounded text-white position-relative">
-         <router-link><img :src="event.img" class="card-img-top rounded" alt="..."></router-link> 
+         <router-link
+         :to ="{name: 'single-event', params: {'slug': event.slug}}"
+         ><img :src="event.img" class="card-img-top rounded" alt="..."></router-link> 
         <div class=" rounded lm-card-img-overlay d-flex flex-column justify-content-end">
             <div class="d-flex justify-content-between" >
                 <h5 class="card-title">{{event.name}}</h5>
