@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AppHome from './pages/AppHome.vue';
 import AppEvents from './pages/AppEvents.vue';
-import AppCalendar from './pages/AppCalendar.vue';
+import AppMap from './pages/AppMap.vue';
 import AppAbout from './pages/AppAbout.vue';
 import AppSingleEvent from './pages/AppSingleEvent.vue';
 
@@ -20,9 +20,9 @@ const router = createRouter({
             component: AppEvents
         },
         {
-            path: '/calendario',
-            name: 'calendar',
-            component: AppCalendar
+            path: '/mappa',
+            name: 'map',
+            component: AppMap
         },
         {
             path: '/chi-siamo',
