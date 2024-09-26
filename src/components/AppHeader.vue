@@ -16,8 +16,8 @@
                         routeName: 'events'
                     },
                     {
-                        label: 'Calendario',
-                        routeName: 'calendar'
+                        label: 'Mappa degli eventi',
+                        routeName: 'map'
                     },
                     {
                         label: 'Chi Siamo',

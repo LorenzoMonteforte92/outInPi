@@ -57,13 +57,17 @@ import { onMounted, ref } from 'vue';
 
 <template>
    <div class="container-fluid">
-    <div id='map' ref="mapRef"></div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <div id='map' ref="mapRef"></div>
+        </div>
+    </div>
    </div>
 </template>
 
 <style scoped lang="scss">
     #map { 
-        height: 50vh; 
-        width: 50vw; 
+        height: 100vh; 
+        width: 100vw; 
     } 
 </style>
