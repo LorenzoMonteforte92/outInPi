@@ -8,10 +8,13 @@ import { onMounted, ref } from 'vue';
         onMounted(() => {
         
                 const tt = window.tt;
+                const pisa = [10.401886, 43.715928];
                 let map = tt.map({
                 key: 'IVJ2d30z4OsD1BOoMEvX2TGYuMGgRaOG',
                 container: mapRef.value,
                 style: 'tomtom://vector/1/basic-main',
+                center: pisa,
+                zoom: 13
             });
             map.addControl(new tt.FullscreenControl());
             map.addControl(new tt.NavigationControl()); 
@@ -21,7 +24,7 @@ import { onMounted, ref } from 'vue';
 
         function addMarker(map){
         const tt = window.tt;
-            let location = [-121.91595, 37.36729];
+            let location = [10.401886, 43.715928];
             let popupOffsets = {
                 top: [0, 0],
                 bottom: [0, -30],
@@ -32,7 +35,7 @@ import { onMounted, ref } from 'vue';
                 }
 
             let marker = new tt.Marker().setLngLat(location).addTo(map);
-            let popup = new tt.Popup({offset: popupOffsets}).setHTML("Your address!");
+            let popup = new tt.Popup({offset: popupOffsets}).setHTML("La tua città");
             marker.setPopup(popup).togglePopup();
         }
  
@@ -58,8 +61,8 @@ import { onMounted, ref } from 'vue';
 <template>
    <div class="container-fluid">
     <div class="row">
-        <div class="col d-flex justify-content-center">
-            <div id='map' ref="mapRef"></div>
+        <div class="col d-flex justify-content-center p-2">
+            <div class="rounded" id='map' ref="mapRef"></div>
         </div>
     </div>
    </div>
@@ -67,7 +70,14 @@ import { onMounted, ref } from 'vue';
 
 <style scoped lang="scss">
     #map { 
-        height: 100vh; 
-        width: 100vw; 
+        height: 60vh; 
+        width: 90vw; 
     } 
+
+    @media screen and (min-width: 992px) {
+        #map { 
+        height: 90vh; 
+        width: 90vw; 
+    } 
+}
 </style>
