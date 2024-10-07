@@ -28,7 +28,7 @@ import Carousel from '../components/carousel.vue';
             <div class="col text-center lm-text-color"><h1>Organizza la tua prossima serata</h1></div>
         </div>
     </div>
-   <Carousel></Carousel>
+    <Carousel></Carousel>
    <div class="container-md rounded">
     <div class="row">
         <div class="col d-flex flex-wrap justify-content-around my-5">
