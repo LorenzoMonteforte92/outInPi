@@ -2,12 +2,14 @@
 import axios from 'axios';
 import { store } from './store.js';
 import AppHeader from './components/AppHeader.vue';
-import AppFooter from './components/AppFooter.vue';  
+import AppFooter from './components/AppFooter.vue';
+import AppMap from './pages/AppMap.vue';  
 
 export default {
   components: {
     AppHeader,
     AppFooter,
+    AppMap
 
   },
 

@@ -45,6 +45,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Zoro</h5>
                                 <p>Some representative placeholder content for the second slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -52,6 +66,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Nami</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -59,6 +87,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Usopp</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -66,6 +108,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Sanji</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -73,6 +129,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Chopper</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -80,6 +150,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Nico Robin</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -87,6 +171,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Franky</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -94,6 +192,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Brook</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -101,6 +213,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Jinbe</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-none">
+                                    <h6>Rufy</h6>
+                                    <div class="d-flex justify-content-between" >
+                                        <span><a href="#">Leningrad</a></span>
+                                        <span>22/05/1992</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h6>Rufy</h6>
+                                <div class="d-flex justify-content-between" >
+                                    <span><a href="#">Leningrad</a></span>
+                                    <span>22/05/1992</span>
+                                </div>
                             </div>
                         </div>
                     </div>

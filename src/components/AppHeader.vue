@@ -45,7 +45,7 @@
         <div class="container-fluid">
             <div class="ms-5" ><router-link class="navbar-brand text-light fw-bold" :to="{name: 'home'}">ToDoPi</router-link></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="lm-navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav lm-gap">
@@ -71,11 +71,18 @@
         
     }
 
-    .nav-link:hover{
-        color: bisque;
-        transform: scale(1.5);
+    .navbar-toggler{
+       
+        border:  solid 1px bisque;
+        .lm-navbar-toggler-icon{
+            color: bisque; 
+        }
     }
-    
+
+    .nav-link:hover{
+        color: rgb(249, 204, 148) ;
+    }
+
     .nav-link.active-link {
         font-weight: bold;
         color: #ff0fa4 !important;
@@ -85,13 +92,18 @@
         background-color: #18172da5 !important; 
     }
 
-    #navbarNav.lm-gap{
-        gap: 3rem;
-    }
+    // #navbarNav.lm-gap{
+    //     gap: 3rem;
+    // }
 
     @media only screen and (min-width: 992px) {
         .lm-gap{
         gap: 12rem
+    }
+
+    .nav-link:hover{
+        color: bisque;
+        transform: scale(1.5);
     }
 }
 </style>

@@ -31,24 +31,19 @@ import Carousel from '../components/carousel.vue';
    <Carousel></Carousel>
    <div class="container-md rounded">
     <div class="row">
-        <div class="col d-flex justify-content-around my-5">
-            <form class="d-flex gap-4" role="search">
-                <!-- ricerca nome evento -->
-                <div class="d-flex" >
-                    <input class="form-control" type="search" placeholder="Cerca per nome evento" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                </div>
-                <!-- ricerca per giorno -->
-                <div class="d-flex" >
-                    <input class="form-control" type="date" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                </div>
-                <!-- ricerca per categoria -->
-                <div class="d-flex" >
-                    <input class="form-control" type="search" placeholder="Cerca locali" aria-label="Search">
-                <button class="btn btn-primary" type="submit">Search</button>
-                </div>
-            </form>
+        <div class="col d-flex flex-wrap justify-content-around my-5">
+            <div class="mb-3 d-flex">
+                <input type="text" class="form-control" id="ricercaEventi" placeholder="Cerca evento">
+                <button class="btn btn-primary">Cerca</button>
+            </div>
+            <div class="mb-3 d-flex">
+                <input type="text" class="form-control" id="ricercaOrganizzatore" placeholder="Cerca organizzatore">
+                <button class="btn btn-primary">Cerca</button>
+            </div>
+            <div class="mb-3 d-flex">
+                <input type="date" class="form-control" id="ricercaData" placeholder="Cerca per data">
+                <button class="btn btn-primary">Cerca</button>
+            </div>
         </div>
     </div>
    </div>

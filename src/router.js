@@ -20,7 +20,7 @@ const router = createRouter({
             component: AppEvents
         },
         {
-            path: '/mappa',
+            path: '/mappa-eventi',
             name: 'map',
             component: AppMap
         },
