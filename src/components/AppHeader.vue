@@ -66,7 +66,6 @@
 //creare CSS per un link che si ingrandisca all'hover e abbia un colore contrastante se selezionato
     .nav-link{
         color: bisque;
-        font-weight:bold;
         transition: transform .2s;
         
     }
