@@ -20,11 +20,13 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-        <div class="col">
-            <div class="fs-6 text-light text-end mb-2" >
+        <div class="col my-3 d-flex align-items-center">
+            <div class="fs-6 text-light" >
                 Developed by Lorenzo Monteforte
             </div>
-            <ul class="d-flex justify-content-end" >
+        </div>
+        <div class="col my-3 d-flex align-items-center justify-content-end">
+          <ul class="d-flex justify-content-end" >
                 <li>
                     <a href="#" class="rounded-circle" ><i class="fab fa-facebook-f icon"></i></a>
                 </li>
@@ -47,17 +49,22 @@
  .container-fluid{
     background-color: #141324;
  }
-ul li {
+
+ ul {
+  margin-bottom: 0;
+  li {
   list-style: none;
 }
+}
+
 
 ul li a {
-  width: 5vw;  /* Base per mobile (grandezza cerchi per schermi piccoli) */
-  height: 5vw;
+  width: 7vw;  /* Base per mobile (grandezza cerchi per schermi piccoli) */
+  height: 7vw;
   background-color: #fff;
   text-align: center;
-  line-height: 4.9vw;  /* Centrato verticalmente */
-  font-size: 2.5vw;  /* Font-size per icone su schermi piccoli */
+  line-height: 6.9vw;  /* Centrato verticalmente */
+  font-size: 3vw;  /* Font-size per icone su schermi piccoli */
   margin: 0 1vw;
   display: block;
   border-radius: 50%;

@@ -63,11 +63,8 @@
 </template>
 
 <style scoped lang="scss">
-//creare CSS per un link che si ingrandisca all'hover e abbia un colore contrastante se selezionato
     .nav-link{
-        color: bisque;
-        transition: transform .2s;
-        
+        color: bisque;  
     }
 
     .navbar-toggler{
@@ -79,7 +76,9 @@
     }
 
     .nav-link:hover{
-        color: rgb(249, 204, 148) ;
+        color: rgb(249, 204, 148);
+        transition: delay 1s;
+        
     }
 
     .nav-link.active-link {
@@ -103,6 +102,12 @@
     .nav-link:hover{
         color: bisque;
         transform: scale(1.5);
+        transition: transform .2s; 
     }
+
+    .nav-link{
+        transition: transform .2s; 
+    }
+
 }
 </style>
